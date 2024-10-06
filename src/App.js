@@ -4,11 +4,13 @@ import Register from './components/Register';
 import EmployeeList from './components/EmployeeList';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const App = () => {
+const App = () => { 
+
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [showRegister, setShowRegister] = useState(false);
 
     const handleLogin = () => {
+        
         setIsLoggedIn(true);
     };
 

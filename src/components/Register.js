@@ -6,6 +6,7 @@ const Register = () => {
     const [empEmail, setEmpEmail] = useState('');
     const [empMobile, setEmpMobile] = useState('');
     const [empSal, setEmpSal] = useState('');
+    
     const [password, setPassword] = useState('');
     const [message, setMessage] = useState('');
 

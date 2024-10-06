@@ -8,6 +8,7 @@ const Login = ({ onLogin }) => {
 
     const handleLogin = async (e) => {
         e.preventDefault();
+        
     debugger
         // Constructing the payload
         const payload = {

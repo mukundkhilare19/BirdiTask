@@ -9,7 +9,8 @@ const EmployeeList = () => {
     const fetchEmployees = async () => {
         const response = await getAllEmployees();
         setEmployees(response.data);
-    };
+    }; 
+    
 
     const handleDelete = async (id) => {
         await deleteEmployee(id);

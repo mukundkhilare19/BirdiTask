@@ -5,12 +5,13 @@ const API_URL = 'http://localhost:8084/api';
 export const registerEmployee = (employee) => {
     return axios.post(`${API_URL}/auth/register`, employee);
 };
-debugger
+
 export const loginEmployee = (loginData) => {
     return axios.post(`${API_URL}/auth/login`, loginData);
 };
 
 export const getAllEmployees = () => {
+    
     return axios.get(`${API_URL}/employees`);
 };
 

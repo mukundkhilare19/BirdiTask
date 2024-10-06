@@ -9,6 +9,7 @@ const EmployeeForm = ({ editingEmployee, setEditingEmployee, refreshEmployees })
     const [isEditMode, setIsEditMode] = useState(false);
 
     useEffect(() => {
+        
         if (editingEmployee) {
             setEmpName(editingEmployee.empName);
             setEmpEmail(editingEmployee.empEmail);
